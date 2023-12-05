@@ -1,0 +1,38 @@
+@import "style.css";
+
+body{
+    padding-top: 2%;
+}
+
+h1, span{
+    text-align: left;
+    font-size: xx-large;
+}
+
+th{
+    width: 3.2vw;
+    height: 3.2vw;
+    background-color: var(--elemek);
+    color: white;
+}
+
+tr:first-child th:first-child{
+    background-color: var(--background);
+}
+
+td{
+    max-width: 3.2vw;
+    max-height: 3.2vw;
+    overflow: hidden;
+    background-color: black;
+    padding:0;
+    color: var(--background);
+}
+
+input{
+    width: 3vw;
+    height: 3.2vw;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
